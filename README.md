@@ -21,11 +21,11 @@ wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-
 cd ~
 
 # mac Intel
-wget https://github.com/XTLS/Xray-core/releases/download/v1.7.5/Xray-macos-64.zip
+wget https://github.com/XTLS/Xray-core/releases/download/v1.8.0/Xray-macos-64.zip
 unzip Xray-macos-64.zip -d ~/Xray
 
  # mac m1
-wget https://github.com/XTLS/Xray-core/releases/download/v1.7.5/Xray-macos-arm64-v8a.zip
+wget https://github.com/XTLS/Xray-core/releases/download/v1.8.0/Xray-macos-arm64-v8a.zip
 unzip Xray-macos-arm64-v8a.zip -d ~/Xray
 
 cp -r ~/.V2rayU/v2ray-core ~/.V2rayU/v2ray-core-bak
