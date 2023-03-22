@@ -5,6 +5,7 @@ https://github.com/mack-a/v2ray-agent
 wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
 ```
 我使用的 VLESS+TCP+TLS_Vision
+【vasma】命令打开脚本
 
 ## 客户端
 - mac
