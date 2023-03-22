@@ -8,13 +8,13 @@ wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-
 
 ## 客户端
 - mac
-https://github.com/yanue/V2rayU/releases
+  https://github.com/yanue/V2rayU/releases
 - ios
-Shadowrocket
+  Shadowrocket
 - windows
-https://github.com/2dust/v2rayN/releases
+  https://github.com/2dust/v2rayN/releases
 - android
-https://github.com/2dust/v2rayNG/releases
+  https://github.com/2dust/v2rayNG/releases
 
 ## mac V2rayU flow 不支持 xtls-rprx-vision 解决办法
 ```
