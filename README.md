@@ -1,21 +1,20 @@
 # 搭梯子
 ## vps
+https://github.com/mack-a/v2ray-agent
 ```
 wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
 ```
 我使用的 VLESS+TCP+TLS_Vision
 
 ## 客户端
-```
-mac
+- mac
 https://github.com/yanue/V2rayU/releases
-ios
+- ios
 Shadowrocket
-windows
+- windows
 https://github.com/2dust/v2rayN/releases
-android
+- android
 https://github.com/2dust/v2rayNG/releases
-```
 
 ## mac V2rayU flow 不支持 xtls-rprx-vision 解决办法
 ```
