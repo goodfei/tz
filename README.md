@@ -30,8 +30,7 @@ wget https://github.com/XTLS/Xray-core/releases/download/v1.8.0/Xray-macos-arm64
 unzip Xray-macos-arm64-v8a.zip -d ~/Xray
 
 cp -r ~/.V2rayU/v2ray-core ~/.V2rayU/v2ray-core-bak
-// 这里不对，把 ~/Xray 下文件 cp 到 ~/.V2rayU/v2ray-core
-mv -r ~/Xray ~/.V2rayU/v2ray-core
+mv ~/Xray/* ~/.V2rayU/v2ray-core/
 cp ~/.V2rayU/v2ray-core/xray ~/.V2rayU/v2ray-core/v2ray # Don't forget this
 sudo chmod 777 ~/.V2rayU/v2ray-core
 ```
