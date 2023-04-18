@@ -46,9 +46,9 @@ chmod +x warp.sh
 ```./warp.sh menu```
 
 先后执行如下安装：
--- 1 - 安装 Cloudflare WARP 官方客户端
--- 4 - 安装 WireGuard 相关组件
--- 7 - 自动配置 WARP WireGuard 双栈全局网络
+  -- 1 - 安装 Cloudflare WARP 官方客户端
+  -- 4 - 安装 WireGuard 相关组件
+  -- 7 - 自动配置 WARP WireGuard 双栈全局网络
 使用 ./warp.sh status 来查看服务的状态，如果正常的话，会显示如下的信息。
 ```
 WireGuard	: Running
