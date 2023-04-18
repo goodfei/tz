@@ -34,3 +34,25 @@ mv ~/Xray/* ~/.V2rayU/v2ray-core/
 cp ~/.V2rayU/v2ray-core/xray ~/.V2rayU/v2ray-core/v2ray # Don't forget this
 sudo chmod 777 ~/.V2rayU/v2ray-core
 ```
+
+Cloudflare WARP 模式
+下载脚本
+```
+wget git.io/warp.sh
+chmod +x warp.sh
+```
+
+运行脚本 中文菜单
+```./warp.sh menu```
+
+先后执行如下安装：
+-- 1 - 安装 Cloudflare WARP 官方客户端
+-- 4 - 安装 WireGuard 相关组件
+-- 7 - 自动配置 WARP WireGuard 双栈全局网络
+使用 ./warp.sh status 来查看服务的状态，如果正常的话，会显示如下的信息。
+```
+WireGuard	: Running
+IPv4 Network	: WARP
+IPv6 Network	: WARP
+```
+使用 curl ipinfo.io 命令来检查你的 IP 地址，如果显示的是 Cloudflare 的 IP 地址，那么恭喜你，你已经成功了。
