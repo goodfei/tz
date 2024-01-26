@@ -7,6 +7,11 @@ wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-
 我使用的 VLESS+TCP+TLS_Vision
 【vasma】命令打开脚本
 
+访问 https://myip.ms/xxx.xxx.xxx.xxx ，或者https://bgp.tools/
+点击 “Owner IP Range” 这一栏的【Other Sites on IP »】按钮，
+然后查看 “Known Websites between IP: xx.xx.xx.xx - xx.xx.xx.xx” 域名列表。
+
+HTTP2 已使用 TLS 1.3 、X25599
 ## 客户端
 - mac
   https://github.com/yanue/V2rayU/releases
