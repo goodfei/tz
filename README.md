@@ -1,4 +1,5 @@
 # 搭梯子
+一键dd https://www.moeelf.com/archives/293.html
 ## vps
 https://github.com/mack-a/v2ray-agent
 ```
